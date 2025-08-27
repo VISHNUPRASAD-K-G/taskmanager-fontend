@@ -46,15 +46,17 @@ function Auth() {
 
     return (
         <>
-            <div className="flex min-h-screen items-center justify-center bg-gray-100 flex-col">
-                <div className='bg-white shadow-md rounded-xl p-6 w-full max-w-sm flex flex-col'>
-                    <img src="app-logo.png" alt="app-logo" className='h-48' />
-                    <form className="">
-                        <h2 className="text-xl font-bold mb-4 text-center">Login</h2>
-                        <input type="email" placeholder="Email" value={userData.email} onChange={(e) => setuserData({ ...userData, email: e.target.value })} className="w-full border border-gray-200 px-3 py-2 mb-3 rounded-lg" />
-                        <input type="password" placeholder="Password" value={userData.password} onChange={(e) => setuserData({ ...userData, password: e.target.value })} className="w-full border border-gray-200 px-3 py-2 mb-4 rounded-lg" />
-                        <button type="button" onClick={handleLogin} className="w-full bg-purple-500 text-white py-2 rounded-lg hover:bg-purple-600 cursor-pointer">Login</button>
-                    </form>
+            <div className='px-10'>
+                <div className="flex min-h-screen items-center justify-center bg-gray-100 flex-col">
+                    <div className='bg-white shadow-md rounded-xl p-6 w-full max-w-sm flex flex-col'>
+                        <img src="app-logo.png" alt="app-logo" className='h-48' />
+                        <form className="">
+                            <h2 className="text-xl font-bold mb-4 text-center">Login</h2>
+                            <input type="email" placeholder="Email" value={userData.email} onChange={(e) => setuserData({ ...userData, email: e.target.value })} className="w-full border border-gray-200 px-3 py-2 mb-3 rounded-lg" />
+                            <input type="password" placeholder="Password" value={userData.password} onChange={(e) => setuserData({ ...userData, password: e.target.value })} className="w-full border border-gray-200 px-3 py-2 mb-4 rounded-lg" />
+                            <button type="button" onClick={handleLogin} className="w-full bg-purple-500 text-white py-2 rounded-lg hover:bg-purple-600 cursor-pointer">Login</button>
+                        </form>
+                    </div>
                 </div>
             </div>
             <ToastContainer position='top-center' theme='colored' autoClose={2000} />

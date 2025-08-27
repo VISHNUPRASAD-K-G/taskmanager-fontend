@@ -90,8 +90,8 @@ function Adminheader() {
                             <div className="flex shrink-0 items-center">
 
                                 <img
-                                    src="../../public/app-logo.png"
-                                    alt="Your Company"
+                                    src="app-logo.png"
+                                    alt="teamSpirit-logo"
                                     className="h-20 w-auto"
                                 />
                             </div>
@@ -134,9 +134,9 @@ function Adminheader() {
                 {menuOpen && (
                     <div className="sm:hidden">
                         <div className="space-y-1 px-2 pt-2 pb-3">
-                            <button className={`block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white ${dashboardStatus && 'bg-gray-950/50'}`}> Dashboard </button>
-                            <button className={`block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white ${userStatus && 'bg-gray-950/50'}`} > Users </button>
-                            <button className={`block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white ${taskstatus && 'bg-gray-950/50'}`}> Tasks </button>
+                            <Link to={'/admin-dashboard'}><button type='button' className={`block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white ${dashboardStatus && 'bg-gray-950/50'}`}> Dashboard </button></Link>
+                            <Link to={'/admin-users'}><button type='button' className={`block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white ${userStatus && 'bg-gray-950/50'}`} > Users </button></Link>
+                            <Link to={'/admin-tasks'}><button type='button' className={`block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white ${taskstatus && 'bg-gray-950/50'}`}> Tasks </button></Link>
 
                         </div>
                     </div>
