@@ -1,0 +1,1 @@
+export const serverUrl = 'https://taskmanager-backend-pb1a.onrender.com'
