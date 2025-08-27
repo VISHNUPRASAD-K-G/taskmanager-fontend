@@ -46,8 +46,7 @@ function Auth() {
 
     return (
         <>
-            <div className='px-10'>
-                <div className="flex min-h-screen items-center justify-center bg-gray-100 flex-col">
+                <div className="flex min-h-screen items-center justify-center bg-gray-100 flex-col px-10">
                     <div className='bg-white shadow-md rounded-xl p-6 w-full max-w-sm flex flex-col'>
                         <img src="app-logo.png" alt="app-logo" className='h-48' />
                         <form className="">
@@ -58,7 +57,6 @@ function Auth() {
                         </form>
                     </div>
                 </div>
-            </div>
             <ToastContainer position='top-center' theme='colored' autoClose={2000} />
         </>
     )
