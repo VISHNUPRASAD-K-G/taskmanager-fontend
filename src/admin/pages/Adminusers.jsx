@@ -101,7 +101,7 @@ function Adminusers() {
                                         <div key={index} className='rounded shadow p-3 border-gray-200 flex items-center relative'>
                                             <div>
                                                 <div className='flex justify-center items-center overflow-hidden' style={{ width: '70px', height: '70px', borderRadius: '50%' }}>
-                                                    <img src="https://cdn.prod.website-files.com/6600e1eab90de089c2d9c9cd/662c092880a6d18c31995dfd_66236531e8288ee0657ae7a7_Business%2520Professional.webp" alt="user-image" className='w-full h-full object-cover' />
+                                                    <img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur.png" alt="user-image" className='w-full h-full object-cover' />
                                                 </div>
                                             </div>
                                             <div className='px-3'>
