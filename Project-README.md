@@ -45,4 +45,10 @@ The app supports **Admin** and **User** roles, task management, visibility contr
 
 - 🌐 Live Demo:  
   - 🚀 [Current Version](https://taskmanager-fontend.vercel.app/)  
-  - ⚡ [Modified Version](https://taskmanager-modifed-frontend.vercel.app/)
+  - ⚡ [Completed Version](https://taskmanager-completed-fontend.vercel.app/)
+
+ ## ✨ Features in the Completed Version  
+
+- 🤖 **AI-Powered Task Description Generator** – generates smart task descriptions based on the title.  
+- 🧩 **Automatic Task Priority Suggestions** – intelligently recommends task priority (High/Medium/Low).  
+- 📱 **Fully Responsive Design** – seamless experience across desktop, tablet, and mobile devices.  
